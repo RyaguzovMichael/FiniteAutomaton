@@ -22,11 +22,11 @@ public class CreateMachineTests
     {
         // Arrange
         var builder = new FiniteStateMachineBuilder<TestStates>();
-        
+
         // Act
         builder.AddStage(TestStates.Start);
         var machine = builder.Build();
-        
+
         // Assert
         Assert.Equal(1, machine.GetInfo().StagesCount);
         Assert.NotNull(machine.Current());

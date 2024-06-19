@@ -5,6 +5,10 @@
         <Nullable>enable</Nullable>
         <TargetFramework>netstandard2.1</TargetFramework>
         <LangVersion>latestmajor</LangVersion>
+        <PackageId>FiniteAutomaton</PackageId>
+        <Version>0.0.1</Version>
+        <Title>FiniteAutomaton.Core</Title>
+        <Authors>Ryaguzov Michael</Authors>
     </PropertyGroup>
 
 </Project>
