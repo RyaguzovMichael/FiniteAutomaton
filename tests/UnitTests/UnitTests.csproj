@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\StateMachineFactory\StateMachineFactory.csproj" />
+      <ProjectReference Include="..\..\src\FiniteAutomaton.Core\FiniteAutomaton.Core.csproj" />
     </ItemGroup>
 
 </Project>

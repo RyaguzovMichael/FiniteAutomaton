@@ -1,4 +1,4 @@
-namespace StateMachineFactory.Tests;
+namespace UnitTests;
 
 public class CreateMachineTests
 {

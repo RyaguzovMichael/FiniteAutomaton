@@ -1,4 +1,4 @@
-namespace StateMachineFactory;
+namespace FiniteAutomaton.Core;
 
 public sealed class FiniteStateMachine<TState>
     where TState : Enum
@@ -24,20 +24,4 @@ public sealed class FiniteStateMachine<TState>
     {
         return _current;
     }
-}
-
-public sealed class MachineState<TState>
-    where TState : Enum
-{
-    public MachineState(TState state)
-    {
-        State = state;
-    }
-
-    public TState State { get; }
-}
-
-public sealed class StateMachineInfo
-{
-    public required int StagesCount { get; init; }
 }

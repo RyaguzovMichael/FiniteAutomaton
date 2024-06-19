@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachineFactory", "src\StateMachineFactory\StateMachineFactory.csproj", "{411D8D1A-D14D-4291-989F-EF7F681773F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiniteAutomaton.Core", "src\FiniteAutomaton.Core\FiniteAutomaton.Core.csproj", "{411D8D1A-D14D-4291-989F-EF7F681773F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87DF8503-F275-4208-A0F6-38BC8CFD8DC5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2C643A38-DD09-4D5F-ADBC-4E92FB97C909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachineFactory.Tests", "tests\StateMachineFactory.Tests\StateMachineFactory.Tests.csproj", "{6E3A1382-9005-4324-90EC-BCF0850C74FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{6E3A1382-9005-4324-90EC-BCF0850C74FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
